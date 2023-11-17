@@ -50,9 +50,9 @@ Tom Dobson - Initial work - [Dobson980](https://github.com/dobson980)
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the BSD 2-Clause "Simplified" License.
 
 ## Acknowledgments
 
-Special thanks to the RuneLite community for their support and contributions.
-Inspired by the vibrant Old School RuneScape community.
+Special thanks to the [RuneLite](https://github.com/runelite/runelite/tree/master) community for their support and contributions.
+Inspired by the vibrant [Old School RuneScape](https://oldschool.runescape.com) community.
