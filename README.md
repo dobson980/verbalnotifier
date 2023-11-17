@@ -18,13 +18,15 @@ Customize your gameplay with a variety of AI-generated voices, each designed to 
 
 The plugin monitors game states such as hitpoints, prayer points, and idle status. When certain conditions are met (like hitpoints dropping below a set threshold), it triggers a pre-recorded audio notification. Users can customize thresholds and choose when these notifications should play.
 
-to get started find the Verbal Notification settings pane  
+Begin by navigating to the Verbal Notification settings panel:   
 [VNSettings](https://imgur.com/cYQvT9W.png)
 
+### Idle Notifications
+Receive an audio alert when your character goes idle. This verbal notification is activated by a chat message from RuneLite:
+![idleNotifications](https://i.imgur.com/DvIomhY.png)  
 
-## Idle Notifications
-
-An audio alert plays when your character becomes idle, helping you maintain efficiency.
+Make sure RuneLite's Idle Notifications are enabled. For an optimal experience, we suggest turning off the sound from RuneLite's native notifications:
+![runeliteSound](https://i.imgur.com/cvQ2RAI.png)
 
 ## Hitpoint Notifications
 
