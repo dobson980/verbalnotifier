@@ -24,7 +24,7 @@ Begin by navigating to the Verbal Notification settings panel:
 
 ### Idle Notifications
 
-Receive an audio alert when your character goes idle. 
+Receive an audio alert when your character goes idle: 
 
 ![enableIdle](https://i.imgur.com/m5fkTTw.png)
 
@@ -38,7 +38,17 @@ Make sure RuneLite's Idle Notifications are enabled. For an optimal experience, 
 
 ## Hitpoint Notifications
 
-Receive an audio alert when your characters hitpoints hit specific thresholds. This verbal notification is activated by 
+Receive an audio alert when your characters hitpoints hit specific thresholds:
+
+![hpNotificaiton](https://i.imgur.com/6hewDuU.png)
+
+This verbal notification is activated when your HP hits specific thresholds:
+
+![thresholds](https://i.imgur.com/BoqM2QJ.png)
+
+- **Low HP Alert:** Sounds when your Hitpoints drop to the level set in the 'Low HP Threshold' field.
+- **Critical HP Alert:** Sounds when your Hitpoints reach the level specified in the 'Critical HP Threshold' field.
+- **Repeating Notifications:** If 'Repeat Low HP Notification' is enabled, the notifier will replay at the interval (in seconds) specified in the 'Repeat Interval (seconds)' field.
 
 ## Prayer Notifications
 
