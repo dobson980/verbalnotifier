@@ -46,7 +46,7 @@ Contributions, issues, and feature requests are welcome. Feel free to check issu
 
 ## Author
 
-Tom Dobson - Initial work - YourGitHubProfile
+Tom Dobson - Initial work - [Dobson980](https://github.com/dobson980)
 
 ## License
 
