@@ -44,7 +44,6 @@ public class VerbalNotifierPlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		log.info("VerbalNotifier started!");
 		voice = config.voiceSelection();
 		initializePrayerFlags(client.getBoostedSkillLevel(Skill.PRAYER));
 	}
@@ -52,7 +51,7 @@ public class VerbalNotifierPlugin extends Plugin
 	@Override
 	protected void shutDown() throws Exception
 	{
-		log.info("VerbalNotifier stopped!");
+
 	}
 
 	@Subscribe
@@ -73,7 +72,7 @@ public class VerbalNotifierPlugin extends Plugin
 		if (config.idleSelected() && messageType == ChatMessageType.CONSOLE) {
 			String message = event.getMessage();
 			if (message.contains("You are now idle!")) {
-				audioPlayer.queueVoiceNotification(voice.name(), "idle.wav");
+				audioPlayer.queueVoiceNotification(voice, "idle");
 				//log.info("Player is idle. Message: {}", message);
 				// Additional processing...
 			}
@@ -123,15 +122,15 @@ public class VerbalNotifierPlugin extends Plugin
 
 		if (!checkForCombat || isInCombat) {
 			if (currentPrayer == 0 && (!hasPlayedOutOfPrayerSound || (repeatOutOfPrayerEnabled && shouldRepeat))) {
-				audioPlayer.queueVoiceNotification(voice.name(), "outofprayer.wav");
+				audioPlayer.queueVoiceNotification(voice, "outofprayer");
 				hasPlayedOutOfPrayerSound = true;
 				lastPrayerNotificationTime = System.currentTimeMillis();
 			} else if (currentPrayer <= criticalPrayerThreshold && (!hasPlayedCriticalPrayerSound || (repeatCriticalPrayerEnabled && shouldRepeat))) {
-				audioPlayer.queueVoiceNotification(voice.name(), "criticalprayer.wav");
+				audioPlayer.queueVoiceNotification(voice, "criticalprayer");
 				hasPlayedCriticalPrayerSound = true;
 				lastPrayerNotificationTime = System.currentTimeMillis();
 			} else if (currentPrayer <= lowPrayerThreshold && (!hasPlayedLowPrayerSound || (repeatLowPrayerEnabled && shouldRepeat))) {
-				audioPlayer.queueVoiceNotification(voice.name(), "lowprayer.wav");
+				audioPlayer.queueVoiceNotification(voice, "lowprayer");
 				hasPlayedLowPrayerSound = true;
 				lastPrayerNotificationTime = System.currentTimeMillis();
 			}
@@ -162,11 +161,11 @@ public class VerbalNotifierPlugin extends Plugin
 		boolean shouldRepeat = repeatEnabled && (currentTime - lastNotificationTime) >= repeatInterval * 1000L;
 
 		if (currentHp <= criticalHpThreshold && (!hasPlayedCriticalHpSound || shouldRepeat)) {
-			audioPlayer.queueVoiceNotification(voice.name(), "crithp.wav");
+			audioPlayer.queueVoiceNotification(voice, "crithp");
 			hasPlayedCriticalHpSound = true;
 			lastNotificationTime = currentTime;
 		} else if (currentHp <= lowHpThreshold && (!hasPlayedLowHpSound || shouldRepeat)) {
-			audioPlayer.queueVoiceNotification(voice.name(), "lowhp.wav");
+			audioPlayer.queueVoiceNotification(voice, "lowhp");
 			hasPlayedLowHpSound = true;
 			lastNotificationTime = currentTime;
 		} else if (currentHp > lowHpThreshold) {

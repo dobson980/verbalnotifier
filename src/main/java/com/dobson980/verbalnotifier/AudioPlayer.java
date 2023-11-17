@@ -41,8 +41,10 @@ public class AudioPlayer {
         }
     }
 
-    public void queueVoiceNotification(String folderName, String fileName) {
-        String resourcePath = "/audio/" + folderName + "/" + fileName;
+    public void queueVoiceNotification(VerbalNotifierConfig.Voices voice, String notificationType) {
+        String fileName = voice.name().toLowerCase() + "_" + notificationType + ".wav"; // e.g., "ella_combat.wav"
+        String resourcePath = "/" + fileName;
+
         clipQueue.offer(resourcePath);
 
         if (currentClip == null || !currentClip.isRunning()) {
