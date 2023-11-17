@@ -38,13 +38,13 @@ Make sure RuneLite's Idle Notifications are enabled. For an optimal experience, 
 
 ## Hitpoint Notifications
 
-Receive an audio alert when your characters hitpoints hit specific thresholds:
+Receive an audio alert when your characters hitpoints become undesirable:
 
 ![hpNotificaiton](https://i.imgur.com/6hewDuU.png)
 
 This verbal notification is activated when your HP hits specific thresholds:
 
-![thresholds](https://i.imgur.com/BoqM2QJ.png)
+![hpThresholds](https://i.imgur.com/BoqM2QJ.png)
 
 - **Low HP Alert:** Sounds when your Hitpoints drop to the level set in the 'Low HP Threshold' field.
 - **Critical HP Alert:** Sounds when your Hitpoints reach the level specified in the 'Critical HP Threshold' field.
@@ -52,7 +52,15 @@ This verbal notification is activated when your HP hits specific thresholds:
 
 ## Prayer Notifications
 
-Get notified for low and critical prayer levels. You can also enable notifications to trigger only when in combat.
+Receive an audio alert when your characters remaining prayer points become undesirable:
+
+![pNotification](https://i.imgur.com/sY6dcJl.png)
+
+This verbal notification is activated when your Prayer hits specific thresholds:
+
+![pThresholds](https://i.imgur.com/XRhlOax.png)
+
+
 
 ## Future Enhancements
 
