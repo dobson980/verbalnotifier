@@ -1,6 +1,6 @@
 # Verbal Notifier
 
-![icon](https://i.imgur.com/kpJJ6TE.png)  
+![icon](https://i.imgur.com/yF3ZWdX.png)  
 
 The Verbal Notifier Plugin is an enhancement for the RuneLite client, providing audio queues for various game events in Old School RuneScape. This plugin is designed to assist players by offering verbal cues for idle states, low health, and prayer levels.
 
