@@ -19,7 +19,7 @@ Customize your gameplay with a variety of AI-generated voices, each designed to 
 The plugin monitors game states such as hitpoints, prayer points, and idle status. When certain conditions are met (like hitpoints dropping below a set threshold), it triggers a pre-recorded audio notification. Users can customize thresholds and choose when these notifications should play.
 
 to get started find the Verbal Notification settings pane  
-![VNSettings](https://imgur.com/cYQvT9W)
+![VNSettings](https://imgur.com/cYQvT9W.png)
 
 
 ## Idle Notifications
