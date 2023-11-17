@@ -1,1 +1,2 @@
-# verbalnotifier
+# VerbalNotifier
+Voices your notifications.
