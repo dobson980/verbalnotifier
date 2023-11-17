@@ -24,7 +24,11 @@ Begin by navigating to the Verbal Notification settings panel:
 
 ### Idle Notifications
 
-Receive an audio alert when your character goes idle. This verbal notification is activated by a chat message from RuneLite:  
+Receive an audio alert when your character goes idle. 
+
+![enableIdle](https://i.imgur.com/m5fkTTw.png)
+
+This verbal notification is activated by a chat message from RuneLite:  
   
 ![idleNotifications](https://i.imgur.com/DvIomhY.png)  
 
@@ -34,7 +38,7 @@ Make sure RuneLite's Idle Notifications are enabled. For an optimal experience, 
 
 ## Hitpoint Notifications
 
-Receive alerts when your hitpoints drop below set thresholds, customizable in the plugin settings.
+Receive an audio alert when your characters hitpoints hit specific thresholds. This verbal notification is activated by 
 
 ## Prayer Notifications
 
