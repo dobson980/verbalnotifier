@@ -14,15 +14,19 @@ The Verbal Notifier Plugin is an enhancement for the RuneLite client, providing 
 The plugin monitors game states such as hitpoints, prayer points, and idle status. When certain conditions are met (like hitpoints dropping below a set threshold), it triggers a pre-recorded audio notification. Users can customize thresholds and choose when these notifications should play.
 
 ## AI Generated Voices
+
 Customize your gameplay with a variety of AI-generated voices, each designed to offer a unique auditory experience. Tailor your RuneScape journey with a voice that suits your style!
 
 ## Idle Notifications
+
 An audio alert plays when your character becomes idle, helping you maintain efficiency.
 
 ## Hitpoint Notifications
+
 Receive alerts when your hitpoints drop below set thresholds, customizable in the plugin settings.
 
 ## Prayer Notifications
+
 Get notified for low and critical prayer levels. You can also enable notifications to trigger only when in combat.
 
 ## After installing the plugin:
@@ -32,12 +36,10 @@ Navigate to the plugin configuration panel in RuneLite.
 Find and select the Verbal Notifier Plugin.  
 Customize the settings according to your preference.  
 
-## Plugin Settings
-
-Choose thresholds for hitpoints and prayer notifications, select voices, and set other preferences.
-
 ## Future Enhancements
+
 **Superior Slayer Creature Announcement:** Stay alert with audio notifications for the appearance of Superior Slayer Creatures. This feature aims to ensure you never miss out on these valuable encounters during your Slayer tasks.  
+  
 **Farming Run Reminders:** Get timely reminders for your farming runs. This addition is designed to help you maximize your efficiency in one of RuneScape's most rewarding skills.  
 
 ## Contributing
