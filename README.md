@@ -60,7 +60,14 @@ This verbal notification is activated when your Prayer hits specific thresholds:
 
 ![pThresholds](https://i.imgur.com/XRhlOax.png)
 
-
+- **Combat Check:** An alert is activated only if your character has recently been in combat, as determined by recent hits taken.
+- **Combat Threshold:** Sets the duration (in seconds) to consider for recent combat activity after receiving a hit.
+- **Low Prayer Alert:** Triggers when your Prayer points fall to the level set in the 'Low Prayer Threshold' field.
+- **Critical Prayer Alert:** Sounds when your Prayer points reach the level specified in the 'Critical Prayer Threshold' field.
+- **Repeat Low Prayer Notifications:** When enabled, the low prayer alert will repeat at the interval defined in the 'Prayer Repeat Interval' field.
+- **Repeat Critical Prayer Notifications:** When enabled, the critical prayer alert will repeat at the interval defined in the 'Prayer Repeat Interval' field.
+- **Repeat Out Of Prayer Notifications:** If checked, an alert for running out of prayer points will rrepeat at the interval defined in the 'Prayer Repeat Interval' field.
+- **Prayer Repeat Interval:** The frequency (in seconds) at which the prayer-related notifications will repeat if their respective repeat options are enabled.
 
 ## Future Enhancements
 
